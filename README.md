@@ -2,6 +2,10 @@
 
 # GraftQL
 
+<p align="center">
+  <img src="./assets/images/screenshots/app-query-en.png" alt="GraftQL query builder" width="720">
+</p>
+
 GraftQL is a desktop client built specifically for GraphQL — think of it as a GraphQL-focused counterpart to Postman or Insomnia. It fetches a schema by HTTP introspection so you can browse the documentation while you build queries, then send requests to one of several endpoints. The name comes from *grafting*: you extend a query branch by branch with **add Query** and **add Child**.
 
 This repository is the **public issue tracker** for GraftQL — report bugs and request features here. GraftQL itself is closed-source.

@@ -2,6 +2,10 @@
 
 # GraftQL
 
+<p align="center">
+  <img src="./assets/images/screenshots/app-query-ja.png" alt="GraftQL クエリビルダー" width="720">
+</p>
+
 GraftQL は GraphQL 専用に作られたデスクトップクライアントです。Postman や Insomnia の GraphQL 版にあたるツールと考えてください。スキーマを HTTP イントロスペクションで取得するため、ドキュメントを参照しながらクエリを組み立て、複数のエンドポイントに対してリクエストを送信できます。名称は *接ぎ木（grafting）* に由来し、**add Query** と **add Child** でクエリを枝ごとに継ぎ足していく操作を表しています。
 
 このリポジトリは GraftQL の**公開課題トラッカー**です。バグ報告や機能要望はこちらで受け付けます。GraftQL 本体はクローズドソースです。
