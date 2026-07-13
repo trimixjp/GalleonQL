@@ -1,0 +1,68 @@
+name: Bug report
+description: Report something that isn't working as expected in GraftQL.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+        日本語での報告も歓迎です / Japanese is welcome.
+  - type: input
+    id: version
+    attributes:
+      label: GraftQL version
+      description: Which version are you running? (see the app's About / Releases page)
+      placeholder: e.g. 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: endpoint-type
+    attributes:
+      label: GraphQL endpoint type
+      description: Optional — the server/framework behind the endpoint, if known (e.g. Apollo Server, Hasura, GraphQL Yoga).
+      placeholder: e.g. Apollo Server
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps that lead to the problem.
+      placeholder: |
+        1. Open ...
+        2. Add a query ...
+        3. Send the request ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Optional — paste any relevant logs or attach screenshots.
+    validations:
+      required: false

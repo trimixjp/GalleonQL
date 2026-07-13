@@ -1,0 +1,38 @@
+name: Language request
+description: Request a new UI language for GraftQL.
+title: "[Language]: "
+labels: ["language-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        GraftQL currently ships in English and Japanese. Additional languages are added based on demand and donations.
+        日本語での報告も歓迎です / Japanese is welcome.
+  - type: input
+    id: language
+    attributes:
+      label: Requested language
+      description: Which language would you like to see supported?
+      placeholder: e.g. Simplified Chinese (zh-CN)
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Your relationship to GraftQL
+      options:
+        - Current user
+        - Would-be user (would use it if this language were available)
+    validations:
+      required: true
+  - type: dropdown
+    id: help-translate
+    attributes:
+      label: Willing to help translate?
+      description: Optional — community help speeds up new languages.
+      options:
+        - "Yes"
+        - "Maybe"
+        - "No"
+    validations:
+      required: false
