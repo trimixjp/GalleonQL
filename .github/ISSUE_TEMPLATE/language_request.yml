@@ -1,12 +1,12 @@
 name: Language request
-description: Request a new UI language for GraftQL.
+description: Request a new UI language for GalleonQL.
 title: "[Language]: "
 labels: ["language-request"]
 body:
   - type: markdown
     attributes:
       value: |
-        GraftQL currently ships in English and Japanese. Additional languages are added based on demand and donations.
+        GalleonQL currently ships in English and Japanese. Additional languages are added based on demand and donations.
         日本語での報告も歓迎です / Japanese is welcome.
   - type: input
     id: language
@@ -19,7 +19,7 @@ body:
   - type: dropdown
     id: relationship
     attributes:
-      label: Your relationship to GraftQL
+      label: Your relationship to GalleonQL
       options:
         - Current user
         - Would-be user (would use it if this language were available)
