@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# setup-labels.sh — create/update the issue labels for the GraftQL public tracker.
+# setup-labels.sh — create/update the issue labels for the GalleonQL public tracker.
 #
 # Run with the `trimixjp` account active in gh (verify with `gh auth status`).
 # `gh label create --force` is idempotent: it creates a label if missing,

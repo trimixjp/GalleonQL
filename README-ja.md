@@ -1,22 +1,22 @@
 [English](./README.md) | **日本語**
 
-# GraftQL
+# GalleonQL
 
 <p align="center">
-  <img src="./assets/images/screenshots/app-query-ja.png" alt="GraftQL クエリビルダー" width="720">
+  <img src="./assets/images/screenshots/app-query-ja.png" alt="GalleonQL クエリビルダー" width="720">
 </p>
 
-GraftQL は GraphQL 専用に作られたデスクトップクライアントです。Postman や Insomnia の GraphQL 版にあたるツールと考えてください。スキーマを HTTP イントロスペクションで取得するため、ドキュメントを参照しながらクエリを組み立て、複数のエンドポイントに対してリクエストを送信できます。名称は *接ぎ木（grafting）* に由来し、**add Query** と **add Child** でクエリを枝ごとに継ぎ足していく操作を表しています。
+GalleonQL は GraphQL 専用に作られたデスクトップクライアントです。Postman や Insomnia の GraphQL 版にあたるツールと考えてください。スキーマを HTTP イントロスペクションで取得するため、ドキュメントを参照しながらクエリを組み立て、複数のエンドポイントに対してリクエストを送信できます。
 
-このリポジトリは GraftQL の**公開課題トラッカー**です。バグ報告や機能要望はこちらで受け付けます。GraftQL 本体はクローズドソースです。
+このリポジトリは GalleonQL の**公開課題トラッカー**です。バグ報告や機能要望はこちらで受け付けます。GalleonQL 本体はクローズドソースです。
 
-- **ウェブサイト**: https://graftql.com/ja/
-- **ダウンロード**: [Releases](https://github.com/trimixjp/GraftQL/releases)
+- **ウェブサイト**: https://galleonql.com/ja/
+- **ダウンロード**: [Releases](https://github.com/trimixjp/GalleonQL/releases)
 
 ## 機能
 
 - HTTP イントロスペクションで取得した GraphQL スキーマを、リファレンスドキュメントと並べて参照できます。
-- 接ぎ木式クエリビルダー: **add Query** でルートフィールドを挿入し、**add Child** で 1 階層ずつ展開します。
+- 段階的なクエリビルダー: **add Query** でルートフィールドを挿入し、**add Child** で 1 階層ずつ展開します。
 - 直交型の接続プロファイル（環境）で複数のエンドポイントを切り替えます。
 - 認証は方式（None / Bearer / Basic）と秘密の値を分離して扱います。
 - リクエストは Rust（reqwest）バックエンドから送信するため、ブラウザの CORS 制約を受けません。
@@ -38,7 +38,7 @@ GraftQL は GraphQL 専用に作られたデスクトップクライアントで
 
 ## 対応言語
 
-GraftQL は現在 **英語** と **日本語** を提供しています。他の言語は要望と寄付に応じて追加します。新しい言語の現在の優先順位は次のとおりです。
+GalleonQL は現在 **英語** と **日本語** を提供しています。他の言語は要望と寄付に応じて追加します。新しい言語の現在の優先順位は次のとおりです。
 
 1. 簡体字中国語（zh-CN）
 2. ブラジルポルトガル語（pt-BR）
@@ -51,4 +51,4 @@ GraftQL は現在 **英語** と **日本語** を提供しています。他の
 
 ## ライセンス / ソース
 
-GraftQL は**クローズドソース**です。このリポジトリには公開課題トラッカー（README、Issue テンプレート、ラベル用スクリプト）のみが含まれます。アプリケーションのソースコードはここでは公開していません。
+GalleonQL は**クローズドソース**です。このリポジトリには公開課題トラッカー（README、Issue テンプレート、ラベル用スクリプト）のみが含まれます。アプリケーションのソースコードはここでは公開していません。
