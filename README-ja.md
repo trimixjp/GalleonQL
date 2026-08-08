@@ -6,11 +6,11 @@
   <img src="./assets/images/screenshots/app-query-ja.png" alt="GalleonQL クエリビルダー" width="720">
 </p>
 
-GalleonQL は GraphQL 専用に作られたデスクトップクライアントです。Postman や Insomnia の GraphQL 版にあたるツールと考えてください。スキーマを HTTP イントロスペクションで取得するため、ドキュメントを参照しながらクエリを組み立て、複数のエンドポイントに対してリクエストを送信できます。
+GalleonQL は GraphQL 専用に作られたデスクトップクライアントです。スキーマを HTTP イントロスペクションで取得するため、ドキュメントを参照しながらクエリを組み立て、複数のエンドポイントに対してリクエストを送信できます。
 
 このリポジトリは GalleonQL の**公開課題トラッカー**です。バグ報告や機能要望はこちらで受け付けます。GalleonQL 本体はクローズドソースです。
 
-- **ウェブサイト**: https://galleonql.com/ja/
+- **ウェブサイト**: https://galleonql.com/
 - **ダウンロード**: [Releases](https://github.com/trimixjp/GalleonQL/releases)
 
 ## 機能
