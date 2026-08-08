@@ -6,11 +6,11 @@
   <img src="./assets/images/screenshots/app-query-en.png" alt="GalleonQL query builder" width="720">
 </p>
 
-GalleonQL is a desktop client built specifically for GraphQL — think of it as a GraphQL-focused counterpart to Postman or Insomnia. It fetches a schema by HTTP introspection so you can browse the documentation while you build queries, then send requests to one of several endpoints.
+GalleonQL is a desktop client built specifically for GraphQL. It fetches a schema by HTTP introspection so you can browse the documentation while you build queries, then send requests to one of several endpoints.
 
 This repository is the **public issue tracker** for GalleonQL — report bugs and request features here. GalleonQL itself is closed-source.
 
-- **Website**: https://galleonql.com/en/
+- **Website**: https://galleonql.com/
 - **Download**: [Releases](https://github.com/trimixjp/GalleonQL/releases)
 
 ## Features
