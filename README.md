@@ -11,7 +11,7 @@ GalleonQL is a desktop client built specifically for GraphQL. It fetches a schem
 This repository is the **public issue tracker** for GalleonQL — report bugs and request features here. GalleonQL itself is closed-source.
 
 - **Website**: https://galleonql.com/
-- **Download**: [Releases](https://github.com/trimixjp/GalleonQL/releases)
+- **Download**: Windows / Linux — [Releases](https://github.com/trimixjp/GalleonQL/releases). macOS — moving to the **Mac App Store** (coming soon; macOS 13 or later). Until then, the macOS build of [v1.4.0](https://github.com/trimixjp/GalleonQL/releases/tag/v1.4.0) remains available.
 
 ## Features
 
