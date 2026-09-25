@@ -11,7 +11,7 @@ GalleonQL は GraphQL 専用に作られたデスクトップクライアント�
 このリポジトリは GalleonQL の**公開課題トラッカー**です。バグ報告や機能要望はこちらで受け付けます。GalleonQL 本体はクローズドソースです。
 
 - **ウェブサイト**: https://galleonql.com/
-- **ダウンロード**: [Releases](https://github.com/trimixjp/GalleonQL/releases)
+- **ダウンロード**: Windows・Linux は [Releases](https://github.com/trimixjp/GalleonQL/releases)。macOS 版は **Mac App Store** での配布に移ります（近日公開・macOS 13 以降）。それまでは [v1.4.0](https://github.com/trimixjp/GalleonQL/releases/tag/v1.4.0) の macOS 版をお使いいただけます。
 
 ## 機能
 
