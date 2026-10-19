@@ -3,24 +3,21 @@
 # GalleonQL
 
 <p align="center">
-  <img src="./assets/images/screenshots/app-query-en.png" alt="GalleonQL query builder" width="720">
+  <img src="./assets/images/screenshots/subscription-en.png" alt="GalleonQL: the query builder on the left and live subscription events with their JSON on the right" width="760">
 </p>
 
-GalleonQL is a desktop client built specifically for GraphQL. It fetches a schema by HTTP introspection so you can browse the documentation while you build queries, then send requests to one of several endpoints.
+GalleonQL is an API client built specifically for GraphQL. Import the schema from the endpoint you work with, build a query by pressing `+` while you read that schema as documentation, and send it to whichever environment is selected, all in one window.
 
 This repository is the **public issue tracker** for GalleonQL — report bugs and request features here. GalleonQL itself is closed-source.
 
-- **Website**: https://galleonql.com/
-- **Download**: Windows / Linux — [Releases](https://github.com/trimixjp/GalleonQL/releases). macOS — moving to the **Mac App Store** (coming soon; macOS 13 or later). Until then, the macOS build of [v1.4.0](https://github.com/trimixjp/GalleonQL/releases/tag/v1.4.0) remains available.
+- **Download**: Windows / Linux — [Releases](https://github.com/trimixjp/GalleonQL/releases). macOS — coming soon to the **Mac App Store** (macOS 13 or later).
 
-## Features
+For details, see the [official website](https://galleonql.com/).
 
-- Browse a GraphQL schema fetched via HTTP introspection, with reference documentation alongside the builder.
-- Incremental query builder: **add Query** inserts a root field, **add Child** expands one level at a time.
-- Switch between multiple endpoints using orthogonal connection profiles (environments).
-- Authentication keeps the method (None / Bearer / Basic) separate from the secret value.
-- Requests are sent from the Rust (reqwest) backend, so there are no browser CORS restrictions.
-- Fetched schemas are cached locally in SQLite.
+<p align="center">
+  <img src="./assets/images/screenshots/workspace-en.png" alt="The schema panel on the left, with the request and response panes" width="49%">
+  <img src="./assets/images/screenshots/hooks-en.png" alt="Request hooks: a rule that saves a value and checks the response" width="49%">
+</p>
 
 ## How to report
 
@@ -34,21 +31,11 @@ Japanese is welcome in every template — write in whichever language is easier 
 
 ## How fixes are handled
 
-Bugs and requests are received here in the public tracker. Because the application source is closed, fixes are made in the private source tree and shipped in a release. When a fix ships, it is announced in the release notes, and the corresponding issue is closed with a note pointing to the version that contains the fix. This keeps each issue linked to the release that resolves it.
+Bugs and requests received in this public tracker are announced in the release notes once they are fixed.
 
 ## Languages
 
-GalleonQL currently ships in **English** and **Japanese**. Additional languages are added based on demand and donations. The current priority order for new languages is:
-
-1. Simplified Chinese (zh-CN)
-2. Brazilian Portuguese (pt-BR)
-3. Spanish (es)
-4. Russian (ru)
-5. Korean (ko)
-6. German / French (de / fr)
+GalleonQL is currently available in Japanese and English only.\
+Other languages are added based on requests and donations.
 
 To request a language, open a **Language request** issue.
-
-## License / Source
-
-GalleonQL is **closed-source**. This repository holds only the public issue tracker — the READMEs, issue templates, and label tooling. The application source code is not published here.

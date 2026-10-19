@@ -3,24 +3,21 @@
 # GalleonQL
 
 <p align="center">
-  <img src="./assets/images/screenshots/app-query-ja.png" alt="GalleonQL クエリビルダー" width="720">
+  <img src="./assets/images/screenshots/subscription-ja.png" alt="GalleonQL: 左にクエリビルダー、右に購読で受け取ったイベントとその JSON" width="760">
 </p>
 
-GalleonQL は GraphQL 専用に作られたデスクトップクライアントです。スキーマを HTTP イントロスペクションで取得するため、ドキュメントを参照しながらクエリを組み立て、複数のエンドポイントに対してリクエストを送信できます。
+GalleonQL は GraphQL 専用の API クライアントです。使うエンドポイントからスキーマを取り込み、そのスキーマをドキュメントとして読みながら `+` を押してクエリを組み立て、選んでいる環境へ送信するまでを 1 つのウィンドウで行えます。
 
 このリポジトリは GalleonQL の**公開課題トラッカー**です。バグ報告や機能要望はこちらで受け付けます。GalleonQL 本体はクローズドソースです。
 
-- **ウェブサイト**: https://galleonql.com/
-- **ダウンロード**: Windows・Linux は [Releases](https://github.com/trimixjp/GalleonQL/releases)。macOS 版は **Mac App Store** での配布に移ります（近日公開・macOS 13 以降）。それまでは [v1.4.0](https://github.com/trimixjp/GalleonQL/releases/tag/v1.4.0) の macOS 版をお使いいただけます。
+- **ダウンロード**: Windows・Linux は [Releases](https://github.com/trimixjp/GalleonQL/releases)。macOS 版は **Mac App Store** で近日公開します（macOS 13 以降）。
 
-## 機能
+詳しくは[公式ウェブサイト](https://galleonql.com/)をご覧ください。
 
-- HTTP イントロスペクションで取得した GraphQL スキーマを、リファレンスドキュメントと並べて参照できます。
-- 段階的なクエリビルダー: **add Query** でルートフィールドを挿入し、**add Child** で 1 階層ずつ展開します。
-- 直交型の接続プロファイル（環境）で複数のエンドポイントを切り替えます。
-- 認証は方式（None / Bearer / Basic）と秘密の値を分離して扱います。
-- リクエストは Rust（reqwest）バックエンドから送信するため、ブラウザの CORS 制約を受けません。
-- 取得したスキーマはローカルの SQLite にキャッシュされます。
+<p align="center">
+  <img src="./assets/images/screenshots/workspace-ja.png" alt="左のスキーマのパネルと、リクエスト・レスポンスのペイン" width="49%">
+  <img src="./assets/images/screenshots/hooks-ja.png" alt="リクエストフック: 値を保存して応答を検証するルール" width="49%">
+</p>
 
 ## 報告のしかた
 
@@ -34,21 +31,11 @@ GalleonQL は GraphQL 専用に作られたデスクトップクライアント�
 
 ## 修正の進め方
 
-バグや要望はこの公開トラッカーで受け付けます。アプリのソースはクローズドのため、修正は非公開のソースツリーで行い、リリースとして配布します。修正が配布される際はリリースノートで告知し、該当する Issue には修正が含まれるバージョンを添えて close します。これにより各 Issue と、それを解決したリリースが常に結びつきます。
+公開トラッカーで受け付けたバグや要望は、修正されましたらリリースノートで告知します。
 
 ## 対応言語
 
-GalleonQL は現在 **英語** と **日本語** を提供しています。他の言語は要望と寄付に応じて追加します。新しい言語の現在の優先順位は次のとおりです。
-
-1. 簡体字中国語（zh-CN）
-2. ブラジルポルトガル語（pt-BR）
-3. スペイン語（es）
-4. ロシア語（ru）
-5. 韓国語（ko）
-6. ドイツ語 / フランス語（de / fr）
+現在は日本語と英語のみです。\
+他の言語は要望と寄付に応じて追加します。
 
 言語をリクエストするには **Language request** の Issue を作成してください。
-
-## ライセンス / ソース
-
-GalleonQL は**クローズドソース**です。このリポジトリには公開課題トラッカー（README、Issue テンプレート、ラベル用スクリプト）のみが含まれます。アプリケーションのソースコードはここでは公開していません。
