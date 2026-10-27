@@ -10,7 +10,7 @@ GalleonQL is an API client built specifically for GraphQL. Import the schema fro
 
 This repository is the **public issue tracker** for GalleonQL — report bugs and request features here. GalleonQL itself is closed-source.
 
-- **Download**: Windows / Linux — [Releases](https://github.com/trimixjp/GalleonQL/releases). macOS — coming soon to the **Mac App Store** (macOS 13 or later).
+- **Download**: macOS — [Mac App Store](https://apps.apple.com/us/app/id6814500019) (macOS 13 or later) / Windows and Linux — [Releases](https://github.com/trimixjp/GalleonQL/releases)
 
 For details, see the [official website](https://galleonql.com/).
 
